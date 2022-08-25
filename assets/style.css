@@ -1,0 +1,170 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#100d39;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#d5bee8
+}
+
+header{
+    margin: 20px 20px 100px 0;
+    justify-content: center;
+    display: flex;
+}
+
+#time{
+    margin: 0 20px 0 0;
+}
+
+.startpg{
+    width: 100%;
+    text-align: center;
+    justify-content: center; 
+    display: flex;
+    flex-wrap: wrap;
+     margin-bottom: 15px; 
+}
+
+.quiz{
+    font-weight: bolder;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+}
+p{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+/* body {
+    text-align: center;
+    justify-content: center;
+    background-color:#d5bee8 ;
+    height:100vh; */
+
+.start{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#start-btn{
+    background-color:coral;
+    border-radius: 20px;
+    height: 60px;
+    width: 200px;
+    font-size: 80%;
+    font-weight: bolder;
+    justify-content: center;
+    border: solid;
+    border-radius: 10px;
+
+
+}
+#start-btn:hover{
+    background-color: indianred;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#submit{
+    width: 100%;
+    height: 40px;
+    align-items: bottom;
+    float: right;
+    margin-top: 20px;
+    background-color:coral;
+    border-radius: 5px;
+
+}
+
+#questions-container{
+    width: 50%;
+}
+
+#question{
+    padding: 4rem;
+    margin:0;
+}
+
+.btn{
+    background-color: #ae86cf; 
+    border: none;
+    align-items: bottom;
+    padding: 10px;
+    border-radius: 10px;
+
+    
+}
+
+.btn:hover{
+    background-color: #835ead;
+   
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+}
+
+
+ .hide{
+     display: none;
+ }
+
+ .finish{
+     text-align:center;
+     font-weight: bolder;
+ }
+
+ .scores{
+ align-items: center;
+ justify-content: center;
+ }
+
+.score-card{
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.score ol{
+    text-align: left;
+    padding: 0.5rem 1.8rem;
+}
+
+#highscore{
+    margin-left: 90px;
+    border-radius: 10px;
+    text-align: center;
+    width: 100px;
+
+}
+
+#highscore:hover{
+    background-color: indianred;
+}
+
+#clear{
+    height: 40px;
+    width: 100px;
+    background-color: #593484;
+    color: white;
+    border-radius: 5px;
+    font-size: 13px;
+    vertical-align: middle;
+
+}
+#back{
+    height: 40px;
+    width: 100px;
+    background-color: #593484;
+    color: white;
+    border-radius: 5px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/style.css" /> 
+  </head>
+  <body>
+    <header class="header">
+      <button id="highscore">
+          View high scores
+      </button>
+      <p id="time">Timer: 75</p>
+   </header>
+
+  <div id ="container" class="container">
+      <div id="startpg" class="startbg">
+          <h1 class="quiz">Coding Quiz Challenge!</h1>
+          <p>Try to test your information and answer the following coding questions within the time limit!</p>
+      </div>
+
+      <div id="endpg" class="end hide">
+          <h2 class="finish">All Done!</h2>
+          <p id="score"></p>
+          <p>Enter your Nickname:
+              <input type="text" placeholder="Nickname.." id="nickname" />
+              <button id="submit" type="button">Submit</button>
+          </p>
+      </div>
+
+      <!-- Questions -->
+      <div id="questions-container" class="hide">
+          <div id="question">Question</div>
+          <div id="options" class="buttons">
+              <button id='optA' class="btn">option 1</button>
+              <button id='optB' class="btn">option 2</button>
+              <button id='optC' class="btn">option 3</button>
+              
+          </div>
+      </div>
+      <div id="display" class="correct hide"></div>
+      <div id="display2" class="incorrect hide"></div>
+  </div>
+  <div class="controls">
+      <button id="start-btn" class="start-btn" type="submit">Start Quiz</button>
+  </div>
+  </div>
+
+  <!-- Score Page -->
+  <div id="high-scores" class="score-card hide">
+      <h1>High Scores</h1>
+      <div id="scores" class="scores">
+          
+          </br>
+          </br>
+  
+          <ol id="newScores"></ol>
+  
+          </br>
+          </br>
+  
+          <a href="index.html">
+              <button id="back">Go Back</button></a>
+          <button id="clear">Clear Highscores</button>
+      </div>
+  </div>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
